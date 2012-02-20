@@ -1,0 +1,23 @@
+<?php
+class DATABASE_CONFIG {
+
+	var $default = array(
+		'driver' => 'mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'readercon_admin',
+		'password' => 'r3ad3rc0ndb',
+		'database' => 'readercon_mgt',
+		'encoding' => 'utf8'
+	);
+	var $readercon_mgt = array(
+		'driver' => 'mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'readercon_admin',
+		'password' => 'r3ad3rc0ndb',
+		'database' => 'readercon_mgt',
+		'encoding' => 'utf8'
+	);
+}
+?>
